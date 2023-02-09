@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.hero-container{
+    width: 100%;
+    height: 260px;
+}
+.hero-bg{position: absolute;
+    width: 100%;
+    height: 260px;
+    background-image: url(images/pexels-josh-sorenson-1714202.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 260px;
+    background-color: rgba(0, 0, 0, 0.584);
+}
+.hero-text{
+    width: 190px;
+    text-align: center;
+}
+.skills-container{
+    width: 100%;
+    height: 300px;
+}
+.skills-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #132C33;
+}
+.bars-container{
+    display: flex;
+    align-items: end;
+    width: 100%;
+    height: 240px;
+    justify-content: space-between;
+    background-color: #132C33;
+    padding: 0 20px 0;
+}
+.bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bar-bg{
+    display: flex;
+    align-items: end;
+    width: 30px;
+    height: 190px;
+    background-color: rgb(211, 211, 211);
+    margin-bottom: 10px;
+}
+.bar1-fill{
+    width: 100%;
+    height: 140px;
+    background-color: #126E82;
+}
+.bar2-fill{
+    width: 100%;
+    height: 130px;
+    background-color: #126E82;
+}
+.bar3-fill{
+    width: 100%;
+    height: 100px;
+    background-color: #126E82;
+}
+.bar4-fill{
+    width: 100%;
+    height: 140px;
+    background-color: #126E82;
+}
+.form-container{
+    height: 285px;
+    width: 100%;
+    background-color: #132C33;
+    padding: 20px;
+}
+form{
+    color: black;
+    height: 260px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    max-width: 400px;
+}
