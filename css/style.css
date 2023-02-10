@@ -72,27 +72,52 @@ main{
     width: 100%;
     height: 140px;
     background-color: #126E82;
+    animation-name: bar1-fill;
+    animation-duration: 2s;
 }
 .bar2-fill{
     width: 100%;
     height: 130px;
     background-color: #126E82;
+    animation-name: bar2-fill;
+    animation-duration: 2s;
 }
 .bar3-fill{
     width: 100%;
     height: 100px;
     background-color: #126E82;
+    animation-name: bar3-fill;
+    animation-duration: 2s;
 }
 .bar4-fill{
     width: 100%;
     height: 140px;
     background-color: #126E82;
+    animation-name: bar4-fill;
+    animation-duration: 2s;
 }
 .form-container{
     height: 285px;
     width: 100%;
     background-color: #132C33;
     padding: 20px;
+}
+
+@keyframes bar1-fill{
+    from{height: 0px;}
+    to{height:140px}
+}
+@keyframes bar2-fill{
+    from{height: 0px;}
+    to{height:130px}
+}
+@keyframes bar3-fill{
+    from{height: 0px;}
+    to{height:100px}
+}
+@keyframes bar4-fill{
+    from{height: 0px;}
+    to{height:140px}
 }
 form{
     color: black;
